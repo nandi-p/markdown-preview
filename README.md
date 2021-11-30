@@ -1,3 +1,13 @@
+# Basic Rules of Markdown
+
+[link] (https://www.markdownguide.org/basic-syntax/).
+
+## Dependency
+
+npm install react-markdown
+
+## Descripption
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

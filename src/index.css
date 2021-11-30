@@ -1,13 +1,121 @@
-body {
+*,
+::after,
+::before {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  line-height: 1.5rem;
+  font-size: 0.875rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.25rem;
+}
+h3 {
+  font-size: 1rem;
+}
+h4 {
+  font-size: 0.75rem;
+}
+h5 {
+  font-size: 0.5rem;
+}
+h6 {
+  font-size: 0.25rem;
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 0.9rem;
+  }
+  h3 {
+    font-size: 0.8rem;
+  }
+  h4 {
+    font-size: 0.7rem;
+  }
+  h5 {
+    font-size: 0.6rem;
+  }
+  h6 {
+    font-size: 0.5rem;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+  .html-container {
+    text-align: left;
+  }
+}
+.title {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgb(41, 56, 66);
+  height: auto;
+  text-align: center;
+  background-color: #99ddff;
+}
+
+.text-container {
+  box-shadow: 5px 5px 5px 5px rgb(160, 165, 165);
+  margin: 0 1rem;
+  box-shadow: black;
+  font-size: 1rem;
+  outline: none;
+  border-style: hidden;
+  padding: 2rem;
+  height: 85vh;
+  overflow: scroll;
+  background-color: #cceeff;
+  color: rgb(54, 57, 59);
+}
+.html-container {
+  box-shadow: 5px 5px 5px 5px rgb(160, 165, 165);
+  background-color: rgb(207, 215, 221);
+  color: #2b3f49;
+  margin: 0 1rem;
+  padding: 2rem;
+  height: 85vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  text-align: justify;
+}
+.container {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+}
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.25rem;
+}
+
+* {
+  margin-bottom: 0.5rem;
+}
+
+blockquote {
+  background-color: rgb(207, 215, 221);
+  border-left: 4px solid black;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: '\201C''\201D''\2018''\2019';
 }
