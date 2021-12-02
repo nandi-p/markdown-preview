@@ -6,7 +6,9 @@
 
 npm install react-markdown
 
-## Descripption
+## Description
+
+Generates HTML on the fly when we write the markdown in our editor and also preview the HTML generated next to the editor.
 
 # Getting Started with Create React App
 
